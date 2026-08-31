@@ -1,5 +1,5 @@
+# Wii Module Patcher
 A simple patcher using python designed to edit code/data contained in Wii modules (REL or RSO files). [The patch format is identical to gecko codetypes](https://wiigeckocodes.github.io/codetypedocumentation.html), but your affected address has to be in terms of an offset into the Module.
-***
 ## Supported Codetypes
 - `00` (8 bit write)
 - `02` (16 bit write)
@@ -10,7 +10,6 @@ A simple patcher using python designed to edit code/data contained in Wii module
 
 Comments are also supported by beginning a line with #.
 
-***
 ## Usage
 `modpatch.py` loads patches from a .txt file or a folder of .txt files. So a path to a folder or just one txt file can be specificed.
 > `python modpatch.py INPUT_MODULE OUTPUT_FILE PATH_TO_PATCHES`
